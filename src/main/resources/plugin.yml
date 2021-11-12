@@ -1,0 +1,10 @@
+name: PiratesRoulette
+version: 1.0
+main: io.github.monull.piratesroulette.PiratesRoulettePlugin
+depend: [Tap, CustomEntity]
+authors: [Noonmaru, monull2452]
+website: https://github.com/monull
+commands:
+  pr:
+    permission: 'pirates-roulette.commands'
+    usage: /<command> start | stop
